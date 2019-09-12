@@ -19,7 +19,7 @@ let url = {
 
 for (let key in url) {
     if (url.hasOwnProperty(key)) {
-        url[key] = 'http://rap2api.taobao.org/app/mock/7058/' + url[key]
+        url[key] = '//rap2api.taobao.org/app/mock/7058/' + url[key]
     }
 }
 
