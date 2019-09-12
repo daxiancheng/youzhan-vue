@@ -24,7 +24,7 @@
 
 <script>
 import Swiper from "swiper";
-import "swiper/dist/css/swiper.css";
+import "swiper/dist/css/swiper.min.css";
 export default {
   name: "swiper",
   props: {

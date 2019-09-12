@@ -40,7 +40,7 @@ new Vue({
                 }
                 this.loading = false
                 this.pageNum++
-            }).catch(err=>console.err(err))
+            })
         },
         getBannerlist(){
             axios.get(url.banner,{
